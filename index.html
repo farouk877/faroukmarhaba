@@ -72,9 +72,9 @@
               <nav class="site-navigation text-right ml-auto d-none d-lg-block" role="navigation">
                 <ul class="site-menu main-menu js-clone-nav ml-auto ">
                   <li class="active"><a href="index.html" class="nav-link">Home</a></li>
-                  <li><a href="about.html" class="nav-link">About</a></li>
-                  <li><a href="projects.html" class="nav-link">Projects</a></li>
-                  <li><a href="contact.html" class="nav-link">Contact</a></li>
+                  <!-- <li><a href="about.html" class="nav-link">Contact</a></li>
+                  <li><a href="projects.html" class="nav-link">Projects</a></li> -->
+                  <li><a href="mailto:farouk.marhaba@gatech.edu" class="nav-link">Contact Me</a></li>
                 </ul>
               </nav>
             </div>
@@ -97,44 +97,7 @@
         </div>
       </div>
     </div>
-    
-    <!-- <div class="site-section">
 
-      <div class="container">
-        <div class="row">
-
-          <div class="col-md-4" data-aos="fade-up" data-aos-delay="">
-            <div class="feature-92912">
-              <span class="wrap-icon flaticon-debt"></span>
-              <h2 class="heading">Usable Technology</h2>
-              <p>Solving <i>real</i> problems, for <i>real</i> people.</p>
-
-              <p><a href="#Overview" class="more-92913">What We Do</a></p>
-            </div>
-          </div>
-
-          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
-            <div class="feature-92912">
-              <span class="wrap-icon flaticon-growth"></span>
-              <h2 class="heading">Go-To-Market Strategy</h2>
-              <p>Delivering our projects into the hands of <i>real</i> customers.</p>
-              <p><a href="projects.html" class="more-92913">How We Get There</a></p>
-            </div>
-          </div>
-
-          <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
-            <div class="feature-92912">
-              <span class="wrap-icon flaticon-business-plan"></span>
-              <h2 class="heading">Community Engagement</h2>
-              <p>Empowering small businesses through our projects.</p>
-              <p><a href="about.html#MissionStatement" class="more-92913">Our Vision</a></p>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-    </div> -->
 
     <div class="site-section bg-left-third mb-5" id="Overview">
       <div class="container">
@@ -145,8 +108,6 @@
           </div>
           
           <div class="col-md-5 ml-auto">
-            <!-- <h2 class="text-primary mb-5 font-weight-bold">Overview</h2> -->
-            <!-- <blockquote class="quote-29281"> -->
               <p>
                 I'm a Lebanese-American raised in Bridgewater, New Jersey and attending school at Georgia Tech in Atlanta, Georgia! 
                 Proud Computer Science major concentrating in Artifical Intelligence and Devices.
@@ -159,17 +120,11 @@
                   <li>Building tools that support small businesses</li>
                   <li>Managing entire product lifecycles</li>
                 </ul>
-                
-                
-
               </p>
             <p data-aos="fade-up" data-aos-delay="100"><a href="#More" class="more-29291">More About Me</a></p>
-          <!-- </blockquote> -->
-          </div>
-          
+          </div>     
         </div>
       </div>
-
     </div>
 
     <div class="site-section bg-tertiary" id="More">
@@ -204,12 +159,6 @@
                 </ul>
               </div>
               <div class="col-md-4">
-                <!-- <ul class="list-unstyled links">
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="about.html">About</a></li>
-                  <li><a href="projects.html">Projects</a></li>
-                  <li><a href="contact.html">Contact</a></li>
-                </ul> -->
                 <p>
                   I'd love to talk about opportunities or partnerships!
                   <br>Shoot me an email:
@@ -221,7 +170,7 @@
                   <li><a href="./files/FaroukMarhaba.pdf" target="_blank">Resume</a></li>
                   <li><a href="https://www.linkedin.com/in/faroukmarhaba/" target="_blank">LinkedIn</a></li>
                   <li><a href="https://github.com/farouk877" target="_blank">GitHub</a></li>
-                  <li><a href="malito:farouk.marhaba@gatech.edu" target="_blank">Contact</a></li>
+                  <li><a href="mailto:farouk.marhaba@gatech.edu" target="_blank">Contact</a></li>
                 </ul>
               </div>
             </div>
@@ -235,13 +184,13 @@
             <div class="row mt-5 justify-content-center">
               <div class="col-md-7 text-center">
                 <p>
-                &copy; 2020 Booler Projects  |  <span class="creditsSection"><a onclick="creditsDivToggle()">Credits</a></span>
+                &copy; 2020 Farouk Marhaba  |  <span class="creditsSection"><a onclick="creditsDivToggle()">Credits</a></span>
                 </p>
               </div>
             </div>
             <div class="row mt-5 justify-content-center">
               <div class="col-md-7 text-center" id="creditDiv" style="display: none;">
-                This website was created with the help of <a href="https://www.linkedin.com/in/faroukmarhaba/">Farouk Marhaba</a> and <a href="https://colorlib.com">Colorlib</a>
+                This website was created by <a href="https://www.linkedin.com/in/faroukmarhaba/">Farouk Marhaba</a> and <a href="https://colorlib.com">Colorlib Bootstrap</a>
               </div>
             </div>
           </div>
@@ -280,24 +229,13 @@
             typeSpeed: 80,
             backSpeed: 80,
             backDelay: 6000,
-            startDelay: 750,
+            startDelay: 1000,
             loop: false,
             showCursor: true
             });
             </script>
 
-
     <script src="js/main.js"></script>
-
-    <script>
-      function emailSubmitted() {
-        var x = document.getElementById("emailInput");
-        x.value = '';
-        window.location='#footer';
-        var y = document.getElementById("emailSubmittedNote");
-        y.style.visibility = "visible";
-      }
-    </script>
 
     <script>
       function creditsDivToggle() {
