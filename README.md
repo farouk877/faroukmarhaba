@@ -1,1 +1,0 @@
-Welcome to Farouk Marhaba's personal website.
